@@ -1,0 +1,17 @@
+$primaryBtn : rgb(182, 85, 153);
+$textColor: rgb(182, 85, 153);
+
+@import './header';
+header {
+    @include flexcenter ();
+    background:$primaryBtn;
+    button {
+        &:hover {
+
+        }
+    }
+}
+
+header button {
+    background: $primaryBtn;
+}
