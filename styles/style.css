@@ -15,12 +15,14 @@ h2.lp-heading,
 h3.lp-heading {
   font-size: 5rem;
   margin-top: 20vh;
+  color: #ffa500;
 }
 
 h1.lp-text,
 h2.lp-text,
 h3.lp-text {
   margin-bottom: 2rem;
+  color: #FFFFFF;
 }
 
 a {
@@ -49,7 +51,7 @@ header {
 }
 
 .landingPage a:hover {
-  color: #444;
+  color: #FFFFFF;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
 }

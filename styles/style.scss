@@ -14,9 +14,11 @@ h3 {
   &.lp-heading {
     font-size: 5rem;
     margin-top: 20vh;
+    color: $primary-color;
   }
   &.lp-text {
     margin-bottom: 2rem;
+    color: $secondary-color;
   }
 }
 
@@ -37,6 +39,7 @@ header {
   background: #001f3f;
   .icons {
     margin-top: 1rem;
+    
   }
   a {
     padding: 0.6rem;
