@@ -1,17 +1,48 @@
-$primaryBtn : rgb(182, 85, 153);
-$textColor: rgb(182, 85, 153);
-
-@import './header';
-header {
-    @include flexcenter ();
-    background:$primaryBtn;
-    button {
-        &:hover {
-
-        }
-    }
+* {
+  box-sizing: border-box;
 }
 
-header button {
-    background: $primaryBtn;
+@import "./variables";
+@import "./mixin";
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+
+  &.lp-heading {
+    font-size: 5rem;
+    margin-top: 20vh;
+  }
+  &.lp-text {
+    margin-bottom: 2rem;
+  }
+}
+
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.landingPage {
+  height: 100%;
+  padding: 4rem;
+  background: #001f3f;
+  .icons {
+    margin-top: 1rem;
+  }
+  a {
+    padding: 0.6rem;
+    &:hover {
+      color: $secondary-color;
+      @include easeOut()
+    }
+  }
 }

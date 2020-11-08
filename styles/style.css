@@ -1,8 +1,56 @@
-header {
-  @incl background:$primaryBtn;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-header button {
-  background: #b65599;
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1.lp-heading,
+h2.lp-heading,
+h3.lp-heading {
+  font-size: 5rem;
+  margin-top: 20vh;
+}
+
+h1.lp-text,
+h2.lp-text,
+h3.lp-text {
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.landingPage {
+  height: 100%;
+  padding: 4rem;
+  background: #001f3f;
+}
+
+.landingPage .icons {
+  margin-top: 1rem;
+}
+
+.landingPage a {
+  padding: 0.6rem;
+}
+
+.landingPage a:hover {
+  color: #444;
+  -webkit-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
 }
 /*# sourceMappingURL=style.css.map */
