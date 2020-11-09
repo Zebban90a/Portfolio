@@ -93,7 +93,7 @@ a.nav-links {
   background: #FFFFFF;
   display: -ms-grid;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
@@ -109,8 +109,7 @@ a.nav-links {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: projectImg1;
-  background-size: cover;
-  background: url("/img/project1.PNG");
+  background: url("../img/project1.PNG");
 }
 
 .projects .projectText1 {
@@ -131,8 +130,7 @@ a.nav-links {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: projectImg2;
-  background-size: cover;
-  background: url("/img/project1.PNG");
+  background: url("../img/project1.PNG");
 }
 
 .projects .projectText2 {
