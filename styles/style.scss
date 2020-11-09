@@ -39,17 +39,17 @@ a {
   .lp-heading {
     font-size: 5rem;
     margin-top: 20vh;
-    color: $primary-color;
+    color: $primary-textcolor;
   }
   .lp-text {
     margin-bottom: 2rem;
-    color: $secondary-color;
+    color: $secondary-textcolor;
   }
 
   a {
     padding: 0.6rem;
     &:hover {
-      color: $secondary-color;
+      color: $secondary-textcolor;
       @include easeOut();
     }
   }
