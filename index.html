@@ -4,37 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <script src="https://kit.fontawesome.com/ca7a25ebe2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/style.css">
+    <script
+      src="https://kit.fontawesome.com/ca7a25ebe2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
-        <div class="menu-btn">
-            <div class="menu-btn-line"></div>
-            <div class="menu-btn-line"></div>
-            <div class="menu-btn-line"></div>
+      <nav>
+        <div class="hamburger">
+          <div class="hamburger-btn-line"></div>
+          <div class="hamburger-btn-line"></div>
+          <div class="hamburger-btn-line"></div>
         </div>
-        <nav>
-            <ul>
-                <a href=""><li class = "nav-item">Projects</li></a>
-                <a href=""><li class = "nav-item">About me</li></a>
-                <a href=""><li class = "nav-item">nackademin</li></a>
-                <a href=""><li class = "nav-item">contact</li></a>
-            </ul>
-        </nav>
-    </header>  
-    <section class="landingPage">
-        <h1 class ="lp-heading">Sebastian Örbom</h1>
-        <h2 class ="lp-text">Web developer, fullstack</h2>
-        <ul>
-            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
-            <a href=""><i class="fab fa-github fa-2x"></i></a>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a class="nav-links" href="#homeAnchor">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#projectsAnchor">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#aboutMeAnchor">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#nackademinAnchor">Nackademin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-links" href="#contactAnchor">Contact</a>
+          </li>
         </ul>
+      </nav>
+    </header>
+    <section class="landingPage">
+      <a name="homeAnchor"></a>
+      <h1 class="lp-heading">Sebastian Örbom</h1>
+      <h2 class="lp-text">Web developer, fullstack</h2>
+      <ul>
+        <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a href=""><i class="fab fa-github fa-2x"></i></a>
+      </ul>
     </section>
-    <section class="projects">andra delen</section>
-    <section class="aboutMe">tredje delen</section>
-    <section class="nackademin">fjärde delen</section>
-    <section class="contact">femte delen</section>
+    <section class="projects">
+      <a name="projectsAnchor"></a>
+      <div
+        class="projectImg1"
+        style="background-image: url('/img/project1.PNG')"
+      ></div>
+      <div class="projectText1">
+        <h3>Projekt: Eventsida med CRUD</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          ut quam quis vitae ea modi, quae fugiat alias dolor unde sequi.
+          Repudiandae magni eaque corrupti dolores laudantium vitae fuga
+          voluptatibus.<br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          ut quam quis vitae ea modi, quae fugiat alias dolor unde sequi.
+          Repudiandae magni eaque corrupti dolores laudantium vitae fuga
+          voluptatibus.
+        </p>
+      </div>
+      <div
+        class="projectImg2"
+        style="background-image: url('/img/project1.PNG')"
+      ></div>
+      <div class="projectText2">
+        <h3>Projekt: Eventsida med CRUD</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          ut quam quis vitae ea modi, quae fugiat alias dolor unde sequi.
+          Repudiandae magni eaque corrupti dolores laudantium vitae fuga
+          voluptatibus.<br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          ut quam quis vitae ea modi, quae fugiat alias dolor unde sequi.
+          Repudiandae magni eaque corrupti dolores laudantium vitae fuga
+          voluptatibus.
+        </p>
+      </div>
+    </section>
+    <section class="aboutMe"><a name="aboutMeAnchor"></a>tredje delen</section>
+    <section class="nackademin">
+      <a name="nackademinAnchor"></a>fjärde delen
+    </section>
+    <section class="contact"><a name="contactAnchor"></a>femte delen</section>
+
+    <script src="/js/portfolio.js"></script>
   </body>
 </html>

@@ -1,0 +1,65 @@
+header {
+    width: 100%;
+    position: fixed;
+    nav {
+      height: 10vh;
+      .menu-nav {
+          position: fixed;
+          top: 0;
+          visibility: hidden;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: center;
+          right: 1rem;
+          background: lighten($background-color, 10); 
+          transform: translate3d(0, -100%, 0);
+          opacity: 0.9;
+          height: 100vh;
+          width: 50%;
+  
+          @include easeOut();
+  
+        &.show {
+            visibility: visible;
+            list-style: none;
+            transform: translate3d(0, 0, 0);  
+          }
+          .nav-item {
+              display: flex;
+              margin-top: 1rem;
+              cursor: pointer;
+              padding: 1rem 0;
+              font-weight: 300;
+              
+              }
+          }
+          
+        }
+      }
+a.nav-links {
+        display: inline-block;
+        color: $secondary-color;
+          @include easeOut();
+    
+}
+      .hamburger {
+        position: absolute;
+        cursor: pointer;
+        margin-top: 20px;
+        right: 10%;
+        z-index: 3;
+        &:hover {
+        background: $secondary-color;
+        @include easeOut();
+      }
+        .hamburger-btn-line {
+          z-index: 2;
+          width: 40px;
+          height: 7px;
+          background: $primary-color;
+          margin: 6px 0;
+          
+          
+        }
+      }

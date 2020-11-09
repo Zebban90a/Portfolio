@@ -1,51 +1,60 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 @import "./variables";
 @import "./mixin";
+@import "./header";
+@import "./projects";
+
+body {
+  font-family: sans-serif;
+}
 
 h1,
 h2,
 h3 {
   margin: 0;
   font-weight: 400;
+}
 
-  &.lp-heading {
+a {
+  
+  text-decoration: none;
+}
+
+
+
+
+.landingPage {
+  height: 100vh;
+  padding: 4rem;
+  background: $background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .lp-heading {
     font-size: 5rem;
     margin-top: 20vh;
     color: $primary-color;
   }
-  &.lp-text {
+  .lp-text {
     margin-bottom: 2rem;
     color: $secondary-color;
   }
-}
 
-a {
-  color: #444444;
-  text-decoration: none;
-}
-
-header {
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-}
-
-.landingPage {
-  height: 100%;
-  padding: 4rem;
-  background: #001f3f;
-  .icons {
-    margin-top: 1rem;
-    
-  }
   a {
     padding: 0.6rem;
     &:hover {
       color: $secondary-color;
-      @include easeOut()
+      @include easeOut();
     }
   }
+}
+
+
+@media screen and (max-width: 768px) {
 }

@@ -1,0 +1,41 @@
+.projects {
+  height: 100vh;
+  padding: 4rem;
+  background: $secondary-background;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "projectImg1 projectText1"
+    "projectImg2 projectText2";
+
+  .projectImg1 {
+    grid-row: 1;
+    grid-column: 1;
+    grid-area: projectImg1;
+    background-size: cover;
+    border: 0.5px solid black;
+
+    
+  }
+  .projectText1 {
+    grid-row: 1;
+    grid-column: 2;
+    grid-area: projectText1;
+    border: 0.5px solid black;
+  }
+  .projectImg2 {
+    grid-row: 2;
+    grid-column: 1;
+    grid-area: projectImg2;
+    background-size: cover;
+    border: 0.5px solid black;
+  }
+  .projectText2 {
+    grid-row: 2;
+    grid-column: 2;
+    grid-area: projectText2;
+    border: 0.5px solid black;
+  }
+}
