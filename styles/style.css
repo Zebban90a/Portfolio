@@ -110,6 +110,7 @@ a.nav-links {
   -ms-grid-column: 1;
   grid-area: projectImg1;
   background-size: cover;
+  background: url("/img/project1.PNG");
 }
 
 .projects .projectText1 {
@@ -131,6 +132,7 @@ a.nav-links {
   -ms-grid-column: 1;
   grid-area: projectImg2;
   background-size: cover;
+  background: url("/img/project1.PNG");
 }
 
 .projects .projectText2 {
