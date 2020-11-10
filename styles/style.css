@@ -87,18 +87,35 @@ a.nav-links {
   margin: 6px 0;
 }
 
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .projects {
-  height: 100vh;
   padding: 4rem;
   background: #FFFFFF;
   display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: repeat 2, 1fr;
+      grid-template-columns: repeat 2, 1fr;
       grid-template-areas: "projectImg1 projectText1" "projectImg2 projectText2";
+}
+
+.projects img {
+  width: 100%;
 }
 
 .projects .projectImg1 {
@@ -109,7 +126,6 @@ a.nav-links {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: projectImg1;
-  background: url("../img/project1.PNG");
 }
 
 .projects .projectText1 {
@@ -130,7 +146,6 @@ a.nav-links {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: projectImg2;
-  background: url("../img/project1.PNG");
 }
 
 .projects .projectText2 {
@@ -143,8 +158,54 @@ a.nav-links {
   grid-area: projectText2;
 }
 
+.aboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
+}
+
+.aboutMe .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutMe .about-H2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+}
+
+.aboutMe .about-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+  width: 60%;
+}
+
 body {
   font-family: sans-serif;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 h1,

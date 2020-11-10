@@ -7,9 +7,14 @@
 @import "./mixin";
 @import "./header";
 @import "./projects";
+@import "./about";
 
 body {
   font-family: sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
 }
 
 h1,
