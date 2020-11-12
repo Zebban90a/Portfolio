@@ -87,6 +87,10 @@ a.nav-links {
   margin: 6px 0;
 }
 
+.My-projects {
+  background: #85144b;
+}
+
 .heading {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,11 +105,12 @@ a.nav-links {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #FFFFFF;
+  border-bottom: black;
 }
 
 .projects {
   padding: 4rem;
-  background: #FFFFFF;
   display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
@@ -136,6 +141,7 @@ a.nav-links {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: projectText1;
+  color: #FFFFFF;
 }
 
 .projects .projectImg2 {
@@ -156,6 +162,7 @@ a.nav-links {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: projectText2;
+  color: #FFFFFF;
 }
 
 .aboutMe {
@@ -168,6 +175,7 @@ a.nav-links {
   -webkit-box-direction: normal;
       -ms-flex-flow: wrap column;
           flex-flow: wrap column;
+  background: #001f3f;
 }
 
 .aboutMe .img {
@@ -184,6 +192,7 @@ a.nav-links {
       -ms-flex-pack: center;
           justify-content: center;
   width: 60%;
+  color: #FFFFFF;
 }
 
 .aboutMe .about-p {
@@ -192,6 +201,7 @@ a.nav-links {
   display: flex;
   padding-left: 2rem;
   width: 60%;
+  color: #FFFFFF;
 }
 
 body {

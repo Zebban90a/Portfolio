@@ -1,13 +1,18 @@
+.My-projects {
+  background: $secondary-background;
+}
+
 .heading {
     display: flex;
     justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: $secondary-textcolor;
+  border-bottom: black;
 }
 
 .projects {
   padding: 4rem;
-  background: $secondary-background;
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat (2, 1fr);
@@ -31,6 +36,7 @@
     grid-row: 1;
     grid-column: 2;
     grid-area: projectText1;
+    color: $secondary-textcolor;
     
   }
   .projectImg2 {
@@ -43,6 +49,7 @@
     grid-row: 2;
     grid-column: 2;
     grid-area: projectText2;
+    color: $secondary-textcolor;
     
   }
 }
