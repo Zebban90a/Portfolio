@@ -92,6 +92,7 @@ a.nav-links {
 }
 
 .heading {
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,6 +110,10 @@ a.nav-links {
   border-bottom: black;
 }
 
+.heading p {
+  padding-top: 2rem;
+}
+
 .projects {
   padding: 4rem;
   display: -ms-grid;
@@ -117,10 +122,6 @@ a.nav-links {
   -ms-grid-columns: repeat 2, 1fr;
       grid-template-columns: repeat 2, 1fr;
       grid-template-areas: "projectImg1 projectText1" "projectImg2 projectText2";
-}
-
-.projects img {
-  width: 100%;
 }
 
 .projects .projectImg1 {
@@ -133,6 +134,10 @@ a.nav-links {
   grid-area: projectImg1;
 }
 
+.projects .projectImg1 img {
+  width: 100%;
+}
+
 .projects .projectText1 {
   -ms-grid-row: 1;
   grid-row: 1;
@@ -142,6 +147,10 @@ a.nav-links {
   -ms-grid-column: 2;
   grid-area: projectText1;
   color: #FFFFFF;
+}
+
+.projects .projectText1 p {
+  padding-top: 1rem;
 }
 
 .projects .projectImg2 {
@@ -163,6 +172,10 @@ a.nav-links {
   -ms-grid-column: 2;
   grid-area: projectText2;
   color: #FFFFFF;
+}
+
+.projects .projectText2 p {
+  padding-top: 1rem;
 }
 
 .aboutMe {
@@ -285,7 +298,18 @@ h3 {
 }
 
 a {
+  font-size: 1.5rem;
   text-decoration: none;
+  color: #ffa500;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin: 0 0 20px;
 }
 
 .landingPage {
@@ -326,5 +350,9 @@ a {
   color: #FFFFFF;
   -webkit-transition: all 0.6s ease-out;
   transition: all 0.6s ease-out;
+}
+
+.landingPage a a i {
+  background: crimson;
 }
 /*# sourceMappingURL=style.css.map */

@@ -27,8 +27,18 @@ h3 {
 }
 
 a {
-  
+  font-size: 1.5rem;
   text-decoration: none;
+  color: $primary-textcolor;
+}
+
+p {
+  font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    margin: 0 0 20px;
 }
 
 
@@ -58,6 +68,9 @@ a {
     &:hover {
       color: $secondary-textcolor;
       @include easeOut();
+    }
+    a i {
+      background: crimson;
     }
   }
 }

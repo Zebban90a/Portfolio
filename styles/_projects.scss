@@ -3,12 +3,17 @@
 }
 
 .heading {
+  margin-top: 2rem;
     display: flex;
     justify-content: center;
   align-items: center;
   flex-direction: column;
   color: $secondary-textcolor;
   border-bottom: black;
+
+  p {
+   padding-top: 2rem;
+  }
 }
 
 .projects {
@@ -16,20 +21,18 @@
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat (2, 1fr);
-
   grid-template-areas:
     "projectImg1 projectText1"
     "projectImg2 projectText2";
 
-    img {
-        width: 100%;
-        
-    }
 
   .projectImg1 {
     grid-row: 1;
     grid-column: 1;
     grid-area: projectImg1;
+    img {
+      width: 100%;
+    }
     
   }
   .projectText1 {
@@ -37,6 +40,9 @@
     grid-column: 2;
     grid-area: projectText1;
     color: $secondary-textcolor;
+    p {
+      padding-top: 1rem;
+    }
     
   }
   .projectImg2 {
@@ -50,6 +56,9 @@
     grid-column: 2;
     grid-area: projectText2;
     color: $secondary-textcolor;
+    p {
+      padding-top: 1rem;
+    }
     
   }
 }
