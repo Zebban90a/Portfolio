@@ -15,8 +15,8 @@ body {
   font-family: sans-serif;
 }
 .main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -34,15 +34,12 @@ a {
 
 p {
   font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    margin: 0 0 20px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  margin: 0 0 20px;
 }
-
-
-
 
 .landingPage {
   height: 100vh;
@@ -69,12 +66,17 @@ p {
       color: $secondary-textcolor;
       @include easeOut();
     }
-    a i {
-      background: crimson;
-    }
   }
 }
 
-
 @media screen and (max-width: 768px) {
+  .landingPage {
+    .lp-heading {
+      font-size: 2rem;
+    }
+     .lp-text {
+      font-size: 1rem;
+    }
+  }
+  
 }
