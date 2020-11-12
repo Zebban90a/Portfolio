@@ -4,19 +4,16 @@
   height: 100vh;
   flex-flow: wrap column;
   background: $background-color;
-  .img {
-    display: flex;
-  }
+  
   .about-H2 {
     display: flex;
-    
     justify-content: center;
     width: 60%;
     color: $secondary-textcolor
   }
   .about-p {
     display: flex;
-    padding-left: 2rem;
+    padding: 2rem;
     width: 60%;
     color: $secondary-textcolor
   }

@@ -1,0 +1,20 @@
+.nackademin {
+    flex-flow: wrap column;
+    background: $secondary-background;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+
+    p {
+        display: flex;
+        max-width: 70%;
+        color: $secondary-textcolor;
+    }
+    h2 {
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        max-width: 50%;
+        color: $secondary-textcolor;
+    }
+}

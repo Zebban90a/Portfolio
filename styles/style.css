@@ -34,7 +34,7 @@ header nav .menu-nav {
   background: #003872;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
-  opacity: 0.9;
+  opacity: 0.95;
   height: 100vh;
   width: 50%;
   -webkit-transition: all 0.6s ease-out;
@@ -178,12 +178,6 @@ a.nav-links {
   background: #001f3f;
 }
 
-.aboutMe .img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .aboutMe .about-H2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -199,9 +193,74 @@ a.nav-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 2rem;
+  padding: 2rem;
   width: 60%;
   color: #FFFFFF;
+}
+
+.nackademin {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
+  background: #85144b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+}
+
+.nackademin p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 70%;
+  color: #FFFFFF;
+}
+
+.nackademin h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 50%;
+  color: #FFFFFF;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem;
+  height: 100vh;
+  background: #001f3f;
+}
+
+.contact-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 430px;
+  width: 750px;
+  background: white;
+  padding: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.contact-box h2 {
+  font-size: 3rem;
+  color: #ffa500;
 }
 
 body {

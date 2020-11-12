@@ -1,0 +1,22 @@
+.contact {
+display: flex;
+  padding: 4rem;
+  height: 100vh;
+  background: $background-color;
+}
+
+.contact-box {
+    flex-flow: wrap column;
+    display: flex;
+    height: 430px;
+    width: 750px;
+    background: white;
+    padding: 4rem;
+    align-items: center;
+    margin: auto;
+
+    h2 {
+        font-size: 3rem;
+        color: $primary-textcolor;
+    }
+}
