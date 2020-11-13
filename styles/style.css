@@ -95,6 +95,9 @@ a.nav-links:hover {
   .hamburger {
     left: 300px;
   }
+  header nav .menu-nav {
+    width: 350px;
+  }
 }
 
 .My-projects {
@@ -167,6 +170,11 @@ a.nav-links:hover {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: projectImg2;
+}
+
+.projects .projectImg2 img {
+  width: 427px;
+  height: 400px;
 }
 
 .projects .projectText2 {
@@ -319,7 +327,6 @@ a.nav-links:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 430px;
   width: 750px;
   background: #FFFFFF;
   padding: 4rem;
