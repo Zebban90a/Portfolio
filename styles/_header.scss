@@ -38,7 +38,10 @@ header {
 a.nav-links {
   display: inline-block;
   color: $secondary-textcolor;
-  @include easeOut();
+  &:hover {
+    @include easeOut();
+    background: $primary-textcolor;
+  }
 }
 .hamburger {
   position: absolute;
@@ -58,7 +61,7 @@ a.nav-links {
     margin: 6px 0;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .hamburger {
     left: 300px;
   }

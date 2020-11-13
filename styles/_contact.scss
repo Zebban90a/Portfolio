@@ -1,26 +1,34 @@
 .contact {
-display: flex;
+  display: flex;
   padding: 4rem;
   height: 100vh;
   background: $background-color;
 }
 
 .contact-box {
-    flex-flow: wrap column;
-    display: flex;
-    height: 430px;
-    width: 750px;
-    background: white;
-    padding: 4rem;
-    align-items: center;
-    margin: auto;
+  flex-flow: wrap column;
+  display: flex;
+  height: 430px;
+  width: 750px;
+  background: $secondary-textcolor;
+  padding: 4rem;
+  align-items: center;
+  margin: auto;
 
-    h2 {
-        font-size: 3rem;
-        color: $primary-textcolor;
-    }
+  h2 {
+    font-size: 3rem;
+    color: $primary-textcolor;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    
+  .contact {
+      height: fit-content;
+    .contact-box {
+      padding: 1rem;
+      width: 350px;
+      margin: 0;
+      height: fit-content;
+    }
   }
+}

@@ -18,3 +18,18 @@
         color: $secondary-textcolor;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .nackademin {
+        padding: 0;
+        margin: 0;
+      h2 {
+          width: 350px;
+      }
+      p {
+          width: 350px;
+          max-width: 100%;
+          
+      }
+    }
+  }
