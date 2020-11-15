@@ -1,0 +1,95 @@
+https://webbriktlinjer.se/riktlinjer/126-tillrackliga-kontraster/
+Tillgänglighetskravet för att få tillräckliga kontraster implenterade jag med hjälp av:
+https://contrast-ratio.com/
+Där jag jämförde textfärg och bakgrundsfärg för att nå upp till godkända värden. 
+
+https://webbriktlinjer.se/riktlinjer/136-gor-en-logisk-tab-ordning/
+Jag har lagt in tabindex på alla element för att det enkelt skall gå att navigera sig runt på sidan med TAB. 
+Den är nu i en logisk ordning där användaren kommer till element som hör till innehållet och inte hoppar t.ex. mellan olika projekten. 
+Även när man öppnar Hamburgermenyn går det att använda TAB för att navigera sig till rätt. 
+
+Något jag har implementerat gällande tillgänglighet är teckenavstånd, radavstånd, teckenstorlek, så det är lätt för användaren att läsa. 
+Har tagit inspiration från 1177.se där jag jobbat i flera år, som har högt krav på sig gällande tillgänglighet. 
+
+SCRUM 
+----------
+SCRUM är ett agilt arbetssätt. 
+SCRUM: 
+ -  Mer fokus på på individen och sammarbete istället för processer och verktyg. 
+ -  Fungerande programvara istället för oändlig dokumentation.
+ -  Samarbete med kunden framför kontraktsförhandlingar.
+ -  Förhålla sig till förändring framför att strikt följa en plan
+
+ De olika rollerna i ett SCRUM-team : 
+
+ - Product Owner 
+    - Ansvarar för att prioritera Produkt-backloggen. 
+    -  ansvarar för att en produkt med mesta möjliga värde levereras till överenskommet datum.
+
+ - Teammedlem (Utvecklare, testare, UX, etc)
+    - De som utvecklar och leverar ett produktinkrement(sprint t.ex)
+    - Tvärfunktionällt team som ska ha den nödvändiga kunnigheten och kompetens för att leverera. 
+
+ - ScrumMaster
+    - Ansvarar för att hjälpa övriga i SCRUM-teamet med att följa sina arbetsprocesser och vara ett stöd. 
+    - Hjälper Product Owner att förstå hur produktbackloggen ska skapas och underhållas på bästa sätt.
+    - Coach för utvecklingsteamet, ansvarar för att SCRUM efterföljs. 
+
+   
+    De olika artifakterna i SCRUM:  
+      - Produktbacklogg
+      - Sprintbacklogg
+      - Inkrement 
+
+      Aktiveter i SCRUM: 
+      - Sprint  (Det som utvecklas under en iteration, t.ex. 3 veckor)
+      - Sprintplanering (Väljer vad som skall utvecklas i en sprint)
+      - Daily Scrum  (Kort avstämning dagligen där SCRUM-teamet berättar kort status vad dom gör och gjorde igår)
+      - Sprint Review/demo (Visar upp vad som utvecklats under en sprint)
+      - Sprint Retrospective (Görs i slutet av en sprint, "Vad har gått bra? Dåligt?" "Behöver vi ändra något?")
+
+
+----------------------------
+
+Grafisk profil 
+
+----------------------------
+
+    Grafisk profil är en slags manual/instruktion hos ett företag. 
+    Den brukar innehålla t.ex. :
+    - Logotyp
+    - Färger
+    - Typsnitt 
+
+    Syftet med en grafisk profil är att bygga ett stark Varumärke, genom att vara konsekvent med designen ut mot användare. 
+    Att skapa en igenkänning hos användare så att användaren känner igen var kommunikationen kommer ifrån etc. 
+
+
+-----------------------------
+
+ Tillgänglighet 
+
+-----------------------------
+
+ Tillgänglighet inom webbutveckling menas med att att information och tjänster skall vara tillgängliga för alla 
+ människor oavsett funktionsnedsättning. 
+
+ Detta är viktigt då mer och mer tjänster blir tillgängliga på Webben, att då alla ska kunna använda dessa.
+ 
+ För att jobba med tillgänglighet på en sajt finns det riktlinjer att följa: 
+ https://webbriktlinjer.se/
+
+ Det finns också flera verktyg som går att använda för att se hur tillgänglig din tjänst är. 
+ t.ex. https://accessmonitor.acessibilidade.gov.pt/ 
+
+------------------------------
+
+
+
+
+
+
+
+     
+        
+
