@@ -1,35 +1,34 @@
 .nackademin {
-    flex-flow: wrap column;
-    background: $secondary-background;
-    display: flex;
-    align-items: center;
-    padding: 4rem;
+  flex-flow: wrap column;
+  background: $secondary-background;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
 
-    p {
-        display: flex;
-        max-width: 70%;
-        color: $secondary-textcolor;
-    }
-    h2 {
-        display: flex;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        max-width: 50%;
-        color: $secondary-textcolor;
-    }
+  p {
+    display: flex;
+    max-width: 70%;
+    color: $secondary-textcolor;
+  }
+  h2 {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 50%;
+    color: $secondary-textcolor;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .nackademin {
-        padding: 0;
-        margin: 0;
-      h2 {
-          width: 350px;
-      }
-      p {
-          width: 350px;
-          max-width: 100%;
-          
-      }
+  .nackademin {
+    padding: 0;
+    margin: 0;
+    h2 {
+      width: 350px;
+    }
+    p {
+      width: 350px;
+      max-width: 100%;
     }
   }
+}

@@ -4,15 +4,15 @@
 
 .heading {
   margin-top: 2rem;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   color: $secondary-textcolor;
   border-bottom: black;
 
   p {
-   padding-top: 2rem;
+    padding-top: 2rem;
   }
 }
 
@@ -25,13 +25,10 @@
     "projectImg1 projectText1"
     "projectImg2 projectText2";
 
-
   .projectImg1 {
     grid-row: 1;
     grid-column: 1;
     grid-area: projectImg1;
-    
-    
   }
   .projectText1 {
     grid-row: 1;
@@ -41,7 +38,6 @@
     p {
       padding-top: 1rem;
     }
-    
   }
   .projectImg2 {
     grid-row: 2;
@@ -51,7 +47,6 @@
       width: 427px;
       height: 400px;
     }
-    
   }
   .projectText2 {
     grid-row: 2;
@@ -61,7 +56,6 @@
     p {
       padding-top: 1rem;
     }
-    
   }
 }
 
@@ -74,7 +68,7 @@
     display: flex;
     flex-direction: column;
     width: 350px;
-    
+
     .projectImg1 img {
       width: 350px;
     }
