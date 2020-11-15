@@ -1,3 +1,4 @@
+/* Hanterar sektionen Projekt */
 .My-projects {
   background: $secondary-background;
 }
@@ -58,7 +59,7 @@
     }
   }
 }
-
+/* Hanterar media queries för sektionen Projekt*/
 @media screen and (max-width: 768px) {
   .heading p {
     padding: 1rem;

@@ -1,9 +1,13 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
 }
 
+/* Variabler som används*/
+/* mixin som används */
+/* Hanterar menynavigeringen, med haburgermenyn och navigeringslänkar */
 header {
   width: 100%;
   position: fixed;
@@ -91,6 +95,7 @@ a.nav-links:hover {
   margin: 6px 0;
 }
 
+/* Hanterar media queries för hamburgermenyn */
 @media screen and (max-width: 768px) {
   .hamburger {
     left: 300px;
@@ -100,6 +105,7 @@ a.nav-links:hover {
   }
 }
 
+/* Hanterar sektionen Projekt */
 .My-projects {
   background: #85144b;
 }
@@ -192,6 +198,7 @@ a.nav-links:hover {
   padding-top: 1rem;
 }
 
+/* Hanterar media queries för sektionen Projekt*/
 @media screen and (max-width: 768px) {
   .heading p {
     padding: 1rem;
@@ -215,6 +222,7 @@ a.nav-links:hover {
   }
 }
 
+/* Hanterar Sektionen Om mig */
 .aboutMe {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,6 +250,7 @@ a.nav-links:hover {
   padding-top: 2rem;
 }
 
+/* Hanterar media queries*/
 @media screen and (max-width: 768px) {
   .aboutMe {
     padding: 1rem;
@@ -263,6 +272,7 @@ a.nav-links:hover {
   }
 }
 
+/* Hanterar sektionen för Nackademin*/
 .nackademin {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -296,6 +306,7 @@ a.nav-links:hover {
   color: #ffffff;
 }
 
+/* Hanterar media queries för sektionen Nackademin */
 @media screen and (max-width: 768px) {
   .nackademin {
     padding: 0;
@@ -310,6 +321,7 @@ a.nav-links:hover {
   }
 }
 
+/* Hanterar Sektionen Kontakt */
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -341,6 +353,7 @@ a.nav-links:hover {
   color: #ffa500;
 }
 
+/* Hanterar media queries för sektionen */
 @media screen and (max-width: 768px) {
   .contact {
     height: -webkit-fit-content;

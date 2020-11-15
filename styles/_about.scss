@@ -1,3 +1,5 @@
+/* Hanterar Sektionen Om mig */
+
 .aboutMe {
   display: flex;
   padding: 4rem;
@@ -18,6 +20,7 @@
     }
   }
 }
+/* Hanterar media queries*/
 
 @media screen and (max-width: 768px) {
   .aboutMe {
